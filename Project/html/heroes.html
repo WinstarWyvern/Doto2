@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heroes</title>
+    <link rel="stylesheet" media="screen " href="../css/style.css">
+    <!-- <link rel="stylesheet" media="(max-width: 800px)" href="../css/heroes.css"> -->
+    <script src="../js/script.js" defer></script>
+    <script src="../js/script2.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="../../homepage/homepage.html">
+            <ul class="logo">
+                <img src="../asset/logogame2.png" alt="tes">
+            </ul>
+        </a>
+        <div class="header-kiri">
+            <a href="heroes.html">
+                <ul class="heroes">
+                    <h1>Heroes</h1>
+                </ul>
+            </a>
+            <a href="mechanics.html">
+                <ul class="mechanics">
+                    <h1>Mechanics</h1>
+                </ul>
+            </a>
+            <a href="../../Merchandise Doto 2/merch.html">
+                <ul class="merchandise">
+                    <h1>Merchandise</h1>
+                </ul>
+            </a>
+            <a href="../../Registrasi Doto 2/regis.html">
+                <ul class="register">
+                    <h1>Register</h1>
+                </ul>
+            </a>
+        </div>
+        <div class="dropdown-header">
+            <button onclick="dropdownheader()" class="btndrop">Contents</button>
+            <div id="dropbtn" class="btndrop-content">
+              <a href="heroes.html">Heroes</a>
+              <a href="mechanics.html">Mechanics</a>
+              <a href="../../Merchandise Doto 2/merch.html">Merchandise</a>
+              <a href="../../Registrasi Doto 2/regis.html">Register</a>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="heroes-content">
+        <div class="heroes-main">
+            <h2>Pick Your Heroes Now</h2>
+            <h3>From magical tacticians to fierce brutes and cunning rogues, Dota 2's hero pool is massive and
+                limitlessly diverse. Unleash incredible abilities and devastating ultimates on your way to victory.</h3>
+            <div class="heroes-division">
+                <button class="btn acv" onclick="filters('all')">All</button>
+                <button class="btn" onclick="filters('intel')">Intelligence</button>
+                <button class="btn" onclick="filters('str')">Strengh</button>
+                <button class="btn" onclick="filters('agi')">Agility</button>
+            </div>
+            <div class="heroes-list">
+                <div class="flt str">
+                    <a href="abaddon.html" target=""><img src="../asset/abaddon.png" alt=""></a>
+                </div>
+                <div class="flt agi">
+                    <a href="antimage.html" target=""><img src="../asset/antimage.png" alt=""></a>
+                </div>
+                <div class="flt str">
+                    <a href="axe.html" target=""><img src="../asset/axe.png" alt=""></a>
+                </div>
+                <div class="flt intel">
+                    <a href="lion.html" target=""><img src="../asset/lion.png" alt=""></a>
+                </div>
+                <div class="flt agi">
+                    <a href="meepo.html" target=""><img src="../asset/meepo.png" alt=""></a>
+                </div>
+                <div class="flt str">
+                    <a href="pudge.html" target=""> <img src="../asset/pudge.png" alt=""></a>
+                </div>
+                <div class="flt agi">
+                    <a href="riki.html" target=""><img src="../asset/riki.png" alt=""></a>
+                </div>
+                <div class="flt agi">
+                    <a href="slark.html" target=""><img src="../asset/slark.png" alt=""> </a>
+                </div>
+                <div class="flt intel">
+                    <a href="techies.html" target=""><img src="../asset/techies.png" alt=""></a>
+                </div>
+                <div class="flt intel">
+                    <a href="zeus.html" target=""><img src="../asset/zeus.png" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-atas">
+            <div class="copr">
+                <h3>©2021 HWD Games All Right Reserved</h3>
+            </div>
+            <div class="term">
+                <h4>Privacy Notice</h4>
+                <h4>Terms of Service</h4>
+                <h4>Cookie Preference</h4>
+            </div>
+        </div>
+        <div class="footer-bawah">
+            <div class="footer-bawah-text">
+                <h3>Follow Us</h3>
+            </div>
+            <div class="footer-logo">
+                <a href="https://twitter.com/DOTA2?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                        src="../asset/twitterlogo.png" alt=""></a>
+                <a href="https://www.facebook.com/dota2/"><img src="../asset/facebooklogo.png" alt=""></a>
+                <a href="https://www.instagram.com/dota2/?hl=en"><img src="../asset/instagramlogo.png" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
